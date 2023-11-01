@@ -9,6 +9,7 @@
  cursor: pointer;
  height: 24px;
  width: 24px;
+ color: var(--primary)
 }
 
 .tooltip__bubble-top {
@@ -40,5 +41,9 @@
 }
 
 .tooltip__trigger:hover ~ .tooltip__bubble-top {
+ display: block;
+}
+
+.tooltip_main-page .tooltip__bubble-top {
  display: block;
 }
